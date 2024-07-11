@@ -1,0 +1,20 @@
+$config_base_fontSize: 16;
+
+/*_____ convert rem _______________*/
+@function rem($font_size_px) {
+  $rem: calc($font_size_px / $config_base_fontSize);
+  @return #{$rem}rem;
+}
+
+$breakpoint-xs: 36rem;
+$breakpoint-sm: 48rem;
+$breakpoint-md: 62em;
+$breakpoint-lg: 75em;
+$breakpoint-xl: 88em;
+
+// import mixin
+@import "src/assets/css/mixin";
+// import colorBase
+@import "src/assets/css/colorBase";
+// import textBase
+@import "src/assets/css/textBase";

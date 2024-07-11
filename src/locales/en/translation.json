@@ -1,0 +1,58 @@
+{
+  "navbar": {
+    "adminAccount": "Administrator account",
+    "confirmReport": "Confirm a report",
+    "dashboard": "Dashboards",
+    "reportManage": "Reporting Manage",
+    "cleanCenter": "CLEAN Center"
+  },
+  "admin": {
+    "headerTitle": "Administrator Management",
+    "tblAction": "Action",
+    "tblEmail": "Email",
+    "tblFullName": "Full Name",
+    "tblPhone": "Phone Number",
+    "tblState": "State",
+    "titlePage": "Admin list"
+  },
+  "reportPage": {
+    "headerTitle": "Reporting Manage",
+    "titlePage": "List Reporting",
+    "tblReportNo": "Report.NO",
+    "tblTitle": "Title",
+    "tblProgress": "Progress",
+    "tblReportDate": "Report date",
+    "tblReportType": "Report type"
+  },
+  "cleanCenterPage": {
+    "headerTitle": "CLEAN Center",
+    "titlePage": "Receipt List",
+    "dateOfReceipt": "Date of receipt",
+    "cleanStaff": "CLEAN C.STaff",
+    "recipient": "Recipient",
+    "provider": "Provider",
+    "result": "Result of processing"
+  },
+  "dashboard": {
+    "pendingAccount": "Pending Account",
+    "pendingReport": "Pending Report",
+    "reportInquiry": "Report Inquiry",
+    "cleanCenter": "Clean Center",
+    "monthly": "Monthly",
+    "annually": "Annually",
+    "reportList": "Report list",
+    "tblNo": "No",
+    "tblReportNo": "Report.NO",
+    "tblStatus": "Status",
+    "tblReportDate": "Report date",
+    "tblReportType": "Report type",
+    "tblAction": "Action"
+  },
+  "status": {
+    "pending": "Pending",
+    "investigation": "Investigation",
+    "investigationCompleted": "Investigation Completed",
+    "transferred": "Transferred",
+    "discarded": "Discarded"
+  }
+}

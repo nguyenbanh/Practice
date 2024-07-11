@@ -1,0 +1,49 @@
+/*_____ font weight _______________*/
+$fw_3: 300;
+$fw_4: 400;
+$fw_5: 500;
+$fw_7: 700;
+$fw_b: bold;
+$fw_n: normal;
+
+/*_____ typo heading base _____*/
+@mixin h1 {
+  font-size: rem(48);
+  line-height: rem(56);
+  letter-spacing: -2%;
+  font-weight: $fw_b;
+}
+
+@mixin scroll-flexible {
+  &::-webkit-scrollbar-track {
+    border-radius: rem(10);
+    background-color: unset;
+  }
+
+  &::-webkit-scrollbar {
+    width: rem(6);
+    height: rem(6);
+    background-color: unset;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: rem(10);
+    background-color: #daddde;
+  }
+
+  @media screen and (min-width: 1920px) and (max-width: 2559px) {
+    &::-webkit-scrollbar {
+      width: rem(6);
+    }
+  }
+  @media screen and (min-width: 2560px) and (max-width: 3839px) {
+    &::-webkit-scrollbar {
+      width: rem(8);
+    }
+  }
+  @media screen and (min-width: 3840px) {
+    &::-webkit-scrollbar {
+      width: rem(10);
+    }
+  }
+}

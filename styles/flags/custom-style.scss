@@ -1,0 +1,73 @@
+.account-badge {
+  border-radius: var(--border-radius);
+  padding: 0.25em 0.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+
+  &.account-active {
+    background: #c8e6c9;
+    color: #256029;
+  }
+
+  &.account-in_active {
+    background: #feedaf;
+    color: #8a5340;
+  }
+
+  &.account-locked {
+    background: #ffcdd2;
+    color: #c63737;
+  }
+
+  &.account-waiting_for_approve {
+    background: #eccfff;
+    color: #694382;
+  }
+}
+
+.report-badge {
+  border-radius: var(--border-radius);
+  padding: 0.25em 0.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+
+  &.report-pending {
+    background: #ffcdd2;
+    color: #c63737;
+  }
+
+  &.report-investigating {
+    background: #feedaf;
+    color: #8a5340;
+  }
+
+  &.report-investigation_completed {
+    background: #c8e6c9;
+    color: #256029;
+  }
+
+  &.report-transferred {
+    background: #eccfff;
+    color: #694382;
+  }
+
+  &.report-discarded {
+    background: #c1cdf7;
+    color: #436682;
+  }
+}
+
+.p-password-input {
+  width: 100% !important;
+}
+
+.asterisk {
+  &::after {
+    content: " *";
+    color: red;
+  }
+}

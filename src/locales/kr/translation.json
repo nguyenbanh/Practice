@@ -1,0 +1,17 @@
+{
+  "navbar": {
+    "adminAccount": "관리자 계정",
+    "confirmReport": "신고 확인",
+    "dashboard": "대시보드",
+    "reportManage": "보고 관리",
+    "cleanCenter": "클린센터"
+  },
+  "admin": {
+    "tblAction": "행동",
+    "tblEmail": "이메일",
+    "tblFullName": "성명",
+    "tblPhone": "전화 번호",
+    "tblState": "상태",
+    "titlePage": "관리자 목록"
+  }
+}
